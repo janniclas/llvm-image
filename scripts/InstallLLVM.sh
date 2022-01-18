@@ -2,7 +2,7 @@
 
 set -e
 
-source ./utils/safeCommandsSet.sh
+source ./scripts/safeCommandsSet.sh
 
 num_cores=1
 target_dir=./
