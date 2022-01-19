@@ -5,7 +5,7 @@ The image size is rather large ~2.8GB, but the build time is about ~3 hours.
 
 ## Example usage
 
-The image tags are based on their branch names. There is one branch for every version we support. You can use a specific version like this `FROM janniclas:llvm-image:12.0.1`. The latest tag is currently not supported, so make sure to define the version of llvm you want to use. 
+The image tags are based on their branch names. There is one branch for every version we support. You can use a specific version like this `FROM janniclas:llvm-image:13.0.0`. The latest tag is currently not supported, so make sure to define the version of llvm you want to use. 
 
 
 ## Acknowledges

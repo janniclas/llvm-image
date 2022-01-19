@@ -7,4 +7,4 @@ RUN apt -y update && apt install bash sudo -y
 COPY scripts .
 RUN ./InitializeEnvironment.sh
 RUN ./AddDependencies.sh
-RUN ./InstallLLVM.sh $(nproc) . "/usr/local/llvm-12" "llvmorg-12.0.1"
+RUN ./InstallLLVM.sh $(nproc) . "/usr/local/llvm-13" "llvmorg-13.0.0"
