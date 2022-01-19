@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:21.10
 
 
 RUN apt -y update && apt install bash sudo -y
